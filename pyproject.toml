@@ -1,0 +1,20 @@
+[project]
+name = "hello-langchain"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "crewai>=1.15.23",
+    "ddgs>=9.16.0",
+    "grandalf>=0.8",
+    "graphviz>=0.21",
+    "langchain-core>=1.6.6",
+    "langchain-ollama>=1.1.0",
+    "langchain-openai>=1.6.7",
+    "langgraph>=1.2.13",
+    "langgraph-checkpoint-sqlite>=3.1.1",
+    "pygraphviz>=2.0.3",
+    "python-dotenv>=1.2.4",
+    "requests>=2.34.2",
+]
